@@ -105,6 +105,7 @@ class.
 - [Sunbeam Proxy][47]
 - [Traefik Proxy][13]
 - [Varnish Gateway][45]
+- [WSO2 API Platform Gateway][48]
 
 ### Partially Conformant
 
@@ -173,6 +174,7 @@ class.
 [45]:#varnish-gateway
 [46]:#calico
 [47]:#sunbeam-proxy
+[48]:#wso2-api-platform-gateway
 
 
 [gamma]: /docs/mesh/
@@ -540,6 +542,14 @@ customization, bypass conditions) at the Gateway, HTTPRoute, or rule level.
 [varnish-gateway]:https://gateway.varnish.org
 [varnish-software]:https://www.varnish-software.com/
 [varnish]:https://varnish-cache.org/
+
+### WSO2 API Platform Gateway
+
+[![Conformance](https://img.shields.io/badge/Gateway%20API%20Conformance%20v1.5.1-WSO2%20API%20Platform-green)](https://github.com/kubernetes-sigs/gateway-api/tree/main/conformance/reports/v1.5.1/wso2-api-platform-gateway)
+
+The [WSO2 API Platform](https://wso2.com/api-platform/docs/) is an AI-ready, GitOps-driven API platform for full lifecycle management across cloud, hybrid, and on-premises deployments. It is focused on maintaining a premier HTTP routing experience, seamlessly bridging traditional API traffic with next-generation AI and MCP workloads, and providing centralized governance across diverse environments. This architecture allows engineering teams to achieve unified traffic management, advanced routing, and robust security [policies](https://wso2.com/api-platform/policy-hub/) without introducing infrastructure fragmentation.
+
+Questions and contributions are welcome on [GitHub](https://github.com/wso2/api-platform/tree/main). Check out [WSO2 Platform Gateway documentation](https://wso2.com/api-platform/docs/get-started/) for installation and usage information. For commercial inquiries, please [get in touch with the WSO2 team](https://wso2.com/contact/).
 
 ## Integrations
 
